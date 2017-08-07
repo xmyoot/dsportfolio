@@ -1,479 +1,105 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-
-    <title>Material Design Bootstrap</title>
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Material Design Bootstrap -->
-    <link href="css/mdb.min.css" rel="stylesheet">
-
-    <!--GOOGLE FONTS-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:800" rel="stylesheet">
-
-    <!-- Template styles -->
-    <style rel="stylesheet">
-        /* TEMPLATE STYLES */
-
-        main {
-            margin-top: 3rem;
-        }
-
-        main .card {
-            margin-bottom: 2rem;
-        }
-
-        @media only screen and (max-width: 768px) {
-            .read-more {
-                text-align: center;
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
             }
-        }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
 
-        .navbar {
-            background-color: #0f6256;
-        }
-
-        footer.page-footer {
-            background-color: #0f6256;
-            margin-top: 2rem;
-        }
-        #header {
-          background-image: url("./img/banner.PNG");
-          repeat: no-repeat;
-          height: 22rem;
-          width: 100%;
-          padding: 0;
-          margin: 0;
-          background-position: center;
-        }
-        #headerText {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translateX(-50%) translateY(-50%);
-          color: white;
-          text-transform: uppercase;
-          font-family: 'Montserrat', sans-serif;
-        }
-    </style>
-
-</head>
-
-<body>
-
-    <header>
-        <!--Navbar-->
-        <nav class="navbar fixed-top navbar-toggleable-md navbar-dark blue-grey darken-3">
-            <div class="container">
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="navbar-brand" href="#">
-                    <strong>Sree Aurovindh Viswanathan</strong>
-                </a>
-                <div class="collapse navbar-collapse" id="navbarNav1">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">My Work</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav ml-auto nav-flex-icons">
-                      <li>
-                        <a class="nav-link waves-effect waves-light"><i class="fa fa-google-plus"></i></a>
-                      </li>
-                      <li>
-                        <a class="nav-link waves-effect waves-light"><i class="fa fa-twitter"></i></a>
-                      </li>
-                      <li>
-                        <a class="nav-link waves-effect waves-light"><i class="fa fa-facebook"></i></a>
-                      </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!--/.Navbar-->
-        <div class="row" id="header">
-            <div class="col-md-12">
-                <h1 class="h1-responsive" id="headerText"><br/>A Data Science Portfolio
-                    <!--<small class="text-muted">...a big data portfolio</small>-->
-                </h1>
-            </div>
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
         </div>
-    </header>
-
-    <main>
-        <!--Main layout-->
-        <div class="container">
-
-            <!--Page heading-->
-
-            <!--/.Page heading-->
-            <hr>
-
-            <!--First row-->
-            <div class="row wow">
-                <!--First column-->
-                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.2s">
-                    <!--Card-->
-                    <div class="card">
-
-                        <!--Card image-->
-                        <div class="view overlay hm-white-slight">
-                            <img src="http://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(43).jpg" class="img-fluid" alt="">
-                            <a href="#!">
-                                <div class="mask"></div>
-                            </a>
-                        </div>
-                        <!--/.Card image-->
-
-                        <!--Card content-->
-                        <div class="card-block">
-                            <!--Title-->
-                            <h4 class="card-title">Classic spaghetti bolognese</h4>
-                            <!--Text-->
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <div class="read-more">
-                                <a href="#!" class="btn btn-brown">Read more</a>
-                            </div>
-                        </div>
-                        <!--/.Card content-->
-
-                    </div>
-                    <!--/.Card-->
-                </div>
-                <!--/.First column-->
-
-                <!--Second column-->
-                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.4s">
-                    <!--Card-->
-                    <div class="card">
-
-                        <!--Card image-->
-                        <div class="view overlay hm-white-slight">
-                            <img src="http://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(52)" class="img-fluid" alt="">
-                            <a href="#!">
-                                <div class="mask"></div>
-                            </a>
-                        </div>
-                        <!--/.Card image-->
-
-                        <!--Card content-->
-                        <div class="card-block">
-                            <!--Title-->
-                            <h4 class="card-title">Fancy desserts</h4>
-                            <!--Text-->
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <div class="read-more">
-                                <a href="#!" class="btn btn-brown">Read more</a>
-                            </div>
-                        </div>
-                        <!--/.Card content-->
-
-                    </div>
-                    <!--/.Card-->
-                </div>
-                <!--/.Second column-->
-
-                <!--Third column-->
-                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.6s">
-                    <!--Card-->
-                    <div class="card">
-
-                        <!--Card image-->
-                        <div class="view overlay hm-white-slight">
-                            <img src="http://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(50).jpg" class="img-fluid" alt="">
-                            <a href="#!">
-                                <div class="mask"></div>
-                            </a>
-                        </div>
-                        <!--/.Card image-->
-
-                        <!--Card content-->
-                        <div class="card-block">
-                            <!--Title-->
-                            <h4 class="card-title">Seasoned salmon</h4>
-                            <!--Text-->
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <div class="read-more">
-                                <a href="#!" class="btn btn-brown">Read more</a>
-                            </div>
-                        </div>
-                        <!--/.Card content-->
-
-                    </div>
-                    <!--/.Card-->
-                </div>
-                <!--/.Third column-->
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right" role="form">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
             </div>
-            <!--/.First row-->
-
-            <!--Second row-->
-            <div class="row">
-                <!--First column-->
-                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.2s">
-                    <!--Card-->
-                    <div class="card">
-
-                        <!--Card image-->
-                        <div class="view overlay hm-white-slight">
-                            <img src="http://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(53)" class="img-fluid" alt="">
-                            <a href="#!">
-                                <div class="mask"></div>
-                            </a>
-                        </div>
-                        <!--/.Card image-->
-
-                        <!--Card content-->
-                        <div class="card-block">
-                            <!--Title-->
-                            <h4 class="card-title">Light super ideas</h4>
-                            <!--Text-->
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <div class="read-more">
-                                <a href="#!" class="btn btn-brown">Read more</a>
-                            </div>
-                        </div>
-                        <!--/.Card content-->
-
-                    </div>
-                    <!--/.Card-->
-                </div>
-                <!--/.First column-->
-
-                <!--Second column-->
-                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.4s">
-                    <!--Card-->
-                    <div class="card">
-
-                        <!--Card image-->
-                        <div class="view overlay hm-white-slight">
-                            <img src="http://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(49)" class="img-fluid" alt="">
-                            <a href="#!">
-                                <div class="mask"></div>
-                            </a>
-                        </div>
-                        <!--/.Card image-->
-
-                        <!--Card content-->
-                        <div class="card-block">
-                            <!--Title-->
-                            <h4 class="card-title">Cheat day inspirations</h4>
-                            <!--Text-->
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <div class="read-more">
-                                <a href="#!" class="btn btn-brown">Read more</a>
-                            </div>
-                        </div>
-                        <!--/.Card content-->
-
-                    </div>
-                    <!--/.Card-->
-                </div>
-                <!--Second column-->
-
-                <!--Third column-->
-                <div class="col-lg-4">
-                    <!--Card-->
-                    <div class="card wow fadeIn" data-wow-delay="0.6s">
-
-                        <!--Card image-->
-                        <div class="view overlay hm-white-slight">
-                            <img src="http://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(51)" class="img-fluid" alt="">
-                            <a href="#!">
-                                <div class="mask"></div>
-                            </a>
-                        </div>
-                        <!--/.Card image-->
-
-                        <!--Card content-->
-                        <div class="card-block">
-                            <!--Title-->
-                            <h4 class="card-title">5-minute snacks</h4>
-                            <!--Text-->
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <div class="read-more">
-                                <a href="#!" class="btn btn-brown">Read more</a>
-                            </div>
-                        </div>
-                        <!--/.Card content-->
-
-                    </div>
-                    <!--/.Card-->
-                </div>
-                <!--/.Third column-->
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
             </div>
-            <!--/.Second row-->
-            <hr>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
 
-            <!--Pagination-->
-            <nav class="row flex-center wow fadeIn" data-wow-delay="0.2s">
-                <ul class="pagination">
-                    <li class="page-item disabled">
-                        <a class="page-link" href="#!" aria-label="Previous">
-                            <span aria-hidden="true">&laquo;</span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                    </li>
-                    <li class="page-item active">
-                        <a class="page-link" href="#!">1 <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#!">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#!">3</a></li>
-                    <li class="page-item"><a class="page-link" href="#!">4</a></li>
-                    <li class="page-item"><a class="page-link" href="#!">5</a></li>
-                    <li class="page-item">
-                        <a class="page-link" href="#!" aria-label="Next">
-                            <span aria-hidden="true">&raquo;</span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <!--/.Pagination-->
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Hello, world!</h1>
+        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
-        <!--/.Main layout-->
-    </main>
-
-    <!--Footer-->
-    <footer class="page-footer center-on-small-only blue-grey darken-3">
-        <!--Footer links-->
-        <div class="container-fluid">
-            <div class="row">
-                <!--First column-->
-                <div class="col-md-3 offset-lg-1 hidden-lg-down">
-                    <h5 class="title">About material design</h5>
-                    <p>Material Design (codenamed Quantum Paper) is a design language developed by Google.</p>
-                    <p>Material Design for Bootstrap (MDB) is a powerful Material Design UI KIT for most popular HTML, CSS, and JS framework - Bootstrap.</p>
-                </div>
-                <!--/.First column-->
-                <hr class="hidden-md-up">
-                <!--Second column-->
-                <div class="col-lg-2 col-md-4 offset-lg-1">
-                    <h5 class="title">Cooking books</h5>
-                    <ul>
-                        <li>
-                            <a href="#!">"Cooking A-Z" by Mike Kalynsky</a>
-                        </li>
-                        <li>
-                            <a href="#!">"No More Heat" by Joe Doe</a>
-                        </li>
-                        <li>
-                            <a href="#!">"Sea Food for Starters" by Alex Well</a>
-                        </li>
-                        <li>
-                            <a href="#!">"Easy Calories" by Samantha Bens</a>
-                        </li>
-                    </ul>
-                </div>
-                <!--/.Second column-->
-                <hr class="hidden-md-up">
-                <!--Third column-->
-                <div class="col-lg-2 col-md-4">
-                    <h5 class="title">Popular recipes</h5>
-                    <ul>
-                        <li>
-                            <a href="#!">Beff steak with almonds</a>
-                        </li>
-                        <li>
-                            <a href="#!">Cordon Bleu</a>
-                        </li>
-                        <li>
-                            <a href="#!">Vegan pancakes</a>
-                        </li>
-                        <li>
-                            <a href="#!">Turkey stuffed sandwiches</a>
-                        </li>
-                    </ul>
-                </div>
-                <!--/.Third column-->
-                <hr class="hidden-md-up">
-                <!--Fourth column-->
-                <div class="col-lg-2 col-md-4">
-                    <h5 class="title">Find me on</h5>
-                    <ul>
-                        <li>
-                            <a href="#!">Facebook</a>
-                        </li>
-                        <li>
-                            <a href="#!">Youtube</a>
-                        </li>
-                        <li>
-                            <a href="#!">Instagram</a>
-                        </li>
-                        <li>
-                            <a href="#!">Pinterest</a>
-                        </li>
-                    </ul>
-                </div>
-                <!--/.Fourth column-->
-            </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
-        <!--/.Footer links-->
-        <hr>
-        <!--Call to action-->
-        <div class="call-to-action">
-            <h4>Material Design for Bootstrap</h4>
-            <ul>
-                <li>
-                    <h5>Get our UI KIT for free</h5>
-                </li>
-                <li>
-                    <a target="_blank" href="http://mdbootstrap.com/getting-started/" class="btn btn-default waves-effect waves-light" rel="nofollow">Sign up!</a>
-                </li>
-                <li>
-                    <a target="_blank" href="http://mdbootstrap.com/material-design-for-bootstrap/" class="btn btn-primary waves-effect waves-light" rel="nofollow">Learn more</a>
-                </li>
-            </ul>
-        </div>
-        <!--/.Call to action-->
+      </div>
 
-        <!--Copyright-->
-        <div class="footer-copyright">
-            <div class="containter-fluid">
-                © 2015 Copyright: <a href="http://www.MDBootstrap.com"> MDBootstrap.com </a>
-            </div>
-        </div>
-        <!--/.Copyright-->
-    </footer>
-    <!--/.Footer-->
+      <hr>
 
-    <!-- SCRIPTS -->
+      <footer>
+        <p>&copy; Company 2015</p>
+      </footer>
+    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
-    <!-- JQuery -->
-    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
 
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="js/tether.min.js"></script>
+        <script src="js/main.js"></script>
 
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="js/mdb.min.js"></script>
-
-    <script>
-    new WOW().init();
-    </script>
-
-</body>
-
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
 </html>
