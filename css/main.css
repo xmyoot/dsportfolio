@@ -1,22 +1,55 @@
 
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+/*GLOBAL*/
+body {
+  font-family: 'Open Sans', sans-serif;
+}
 
+/*NAVIGATION*/
+nav {
+  height: 5.5rem;
+  max-height: 100%;
+  border-bottom: 1px solid lightgray;
+  text-transform: uppercase;
+}
+.nav-link {
+  height: 100%;
+  padding-right: .7rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  transition: 0.25s ease-in;
+}
+.nav-link:hover {
+  background-color: #F5F5F5;
+  border-bottom: 3px solid #b2c0cd;
+}
+#navbarNavDropdown{
+  height: 100%;
+}
 
+/*HERO SECTION*/
+#mainSlider {
+  background-color:gray;
+  height: 25rem;
+}
 
+/*ABOUT ME SECTION*/
+.aboutMe h3 {
+  color: #a5c6d3;
+  margin-top: 1rem;
+  text-align: center;
+}
+.aboutMe .col-sm {
+  transition: 0.25s ease-in;
+}
+.aboutMe .col-sm:hover {
+  background-color: #EBEBEB;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*FOOTER*/
+footer {
+  background-color: #1a1a1a;
+  color: gray;
+  padding: 3%;
+}
