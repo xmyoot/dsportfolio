@@ -4,6 +4,9 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+.heading {
+  font-family: 'Merriweather', serif;
+}
 
 /*NAVIGATION*/
 nav {
@@ -53,6 +56,22 @@ nav {
   background-color: #EBEBEB;
 }
 /*BLOG AND PREFERENCES*/
+.blogReferences {
+  display: flex;
+  justify-content: space-around;
+}
+/*WHO IS PAGE*/
+#whoIs h5 {
+  color: #78acc2;
+  text-align: center;
+}
+.skillsTweets {
+  display: flex;
+  justify-content: space-around;
+}
+.progress-bar {
+  justify-content: center;
+}
 
 
 /*PORTFOIO OF WORK*/
