@@ -29,9 +29,15 @@ nav {
 }
 
 /*HERO SECTION*/
-#mainSlider {
-  background-color:gray;
-  height: 25rem;
+#mainSlider img {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+}
+#stripedBars {
+  height: 15px;
+  background-image:url('../img/slipes.png');
+  background-repeat: repeat-x;
 }
 
 /*ABOUT ME SECTION*/
@@ -46,10 +52,39 @@ nav {
 .aboutMe .col-sm:hover {
   background-color: #EBEBEB;
 }
+/*BLOG AND PREFERENCES*/
 
+
+/*PORTFOIO OF WORK*/
+.portfolioHeading {
+  background-color: white;
+  height: 100%;
+  display:inline;
+  text-align: left;
+  padding-right: 1%;
+  font-weight: bold;
+}
+#portfolioCards{
+  border: none;
+}
+#portfolioCards img {
+  width: 100%;
+  transition: all .2s ease-in-out;
+}
+#portfolioCards img:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+#portfolioCards h4 {
+  text-align: center;
+}
 /*FOOTER*/
-footer {
+#footer {
   background-color: #1a1a1a;
   color: gray;
-  padding: 3%;
+  width: 100%;
+}
+#footer .row {
+  padding-top: 20px;
 }
