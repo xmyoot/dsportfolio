@@ -209,7 +209,7 @@ nav {
 .sideBar {
   flex-wrap: wrap;
 }
-#categories a, #categories div {
+#categories a, #button button, #categories div {
   width: 100%;
 }
 
