@@ -73,6 +73,9 @@ nav {
   display: flex;
   justify-content: space-around;
 }
+.skillsTweets ul {
+  list-style: none;
+}
 .progress-bar {
   justify-content: center;
 }
@@ -157,6 +160,56 @@ nav {
   max-width:300px;
 }
 
+/*Contact FORM STYLING*/
+.contactSection h4 {
+  font-size: 1.25rem;
+}
+.contactForm input {
+  margin-bottom: 20px;
+  height: 42px;
+  width: 50%;
+  border-radius: 2.5%;
+  background-color: #EBEBEB;
+  border: none;
+  padding: 8px;
+}
+.contactForm textarea {
+  width: 75%;
+  border-radius: 2.5%;
+  background-color: #EBEBEB;
+  border: none;
+  padding: 8px;
+  height: 180px;
+}
+
+/*RESUME PAGE*/
+#resumeHeader {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+#resumeHeader img {
+  max-width: 5rem;
+}
+#resumeHeader h3 {
+  font-weight: bold;
+
+}
+#resumeHeader ul{
+  list-style-type: circle;
+}
+#resumeHeader li {
+  padding-bottom: 5px;
+}
+.skillsBadge {
+  justify-content:flex-start;
+  flex-wrap: wrap;
+}
+#resumeHeader button {
+  margin-right: 7px;
+}
 
 /*FOOTER*/
 #footer {

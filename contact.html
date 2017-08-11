@@ -47,14 +47,57 @@
           </div>
         </nav>
     </div>
-    <div class="container">
+    <div class="container contactSection">
       <br>
-      <h1 class="heading">Employment</h1><hr/><br>
-      <h3>Employment Position goes Here</h3>
-      <p>Date: April-present</p><br>
-      <p>I am currently operating under the banner of Michael Aldridge Design Engineering, as a freelance Design Engineer. The move to become a sole trader seemed the perfect fit for me at this time, as I was looking for the next big challenge. A career path that would continue to challenge me as a design engineer, but also provide me with responsibility of running a small business. To date I have already begun to find myself very busy with many contracts from all kinds of backgrounds, from individuals looking to productise an idea, to large companies looking for additional support. I am finding it extremely rewarding with responsibilities of sourcing work, project manage and project fulfilment.</p>
-      <img src="./img/bigdata.jpg" alt="research position" style="width: 100%;">
-    </div>
+      <h1 class="heading">Contact</h1><hr/><br>
+      <div class="row">
+        <div class="col">
+          <h4>Any questions about my work, I'd love to answer them! Or if you have an opportunity you think I’d like to get involved in, then please, drop me a message and I’ll get back to you...</h4><br>
+          <h4>I'm interested in </h4>
+          <ul>
+            <li>Commissions</li>
+            <li>Commissions</li>
+            <li>Commissions</li>
+            <li>Commissions</li>
+            <li>Commissions</li>
+          </ul><br>
+          <a href="resume.html"><h5 style="color: #78acc2; text-align: left;">Download my Curriculum Vitae Here</h5></a>
+        </div>
+        <div class="col">
+          <img style="width: 100%;" src="./img/bigdata.jpg" alt="">
+        </div>
+      </div>
+    </div><br><br>
+    <div class="container">
+      <div class="row flex">
+        <div class="col-sm-4" style="background-image:url('./img/slipes.png');
+        padding-left: 0px;">
+          <h3 style="font-weight: bold;" class="portfolioHeading">
+              My Location
+          </h3><br>
+        </div>
+        <div class="col-sm-7" style="background-image:url('./img/slipes.png');
+        padding-left: 0px;">
+          <h3 style="font-weight: bold;" class="portfolioHeading">
+              Get In Touch
+          </h3><br>
+        </div>
+      </div><br>
+      <div class="row flex">
+        <div class="col-sm-4">
+          <div style="width: 100%;height: 400px;background-color: grey;" id="map"></div>
+        </div>
+        <div class="col-sm-7 contactForm">
+          <form method="POST" action="http://formspree.io/YOUREMAILHERE">
+            <input style="margin-top: 10px;" type="text" name="name" placeholder="Your Name"><br>
+            <input type="email" name="email" placeholder="Your email"><br>
+            <input type="text" name="subject" placeholder="Subject"><br>
+            <textarea name="message" placeholder="Your message"></textarea><br>
+            <button class="btn btn-primary" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </div><br>
     <div id="footer" class="container-fluid">
         <div class="row">
           <div class="col-sm-8">
@@ -65,6 +108,10 @@
           </div>
         </div>
     </div>
+    <script type="text/javascript" src="./js/googleScript.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvU8JCNUEQttr-k3IuYKoyJrZujZT3bRQ&callback=initMap">
+    </script>
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
