@@ -19,6 +19,14 @@ nav {
   border-bottom: 1px solid lightgray;
   text-transform: uppercase;
 }
+#navbarNavDropdown {
+  background-color: white;
+  z-index: 10000;
+}
+#navLinks {
+  background-color: white;
+}
+
 .nav-link {
   height: 100%;
   padding-right: .7rem;
@@ -161,53 +169,79 @@ nav {
 }
 
 /*Contact FORM STYLING*/
+
 .contactSection h4 {
   font-size: 1.25rem;
 }
 .contactForm input {
   margin-bottom: 20px;
   height: 42px;
-  width: 50%;
+  width: 75%;
   border-radius: 2.5%;
   background-color: #EBEBEB;
   border: none;
   padding: 8px;
 }
 .contactForm textarea {
-  width: 75%;
+  width: 100%;
   border-radius: 2.5%;
   background-color: #EBEBEB;
   border: none;
   padding: 8px;
   height: 180px;
 }
+/*BLOG PAGE*/
+.blogAndCategories {
+  justify-content:space-around;
+  flex-wrap: wrap;
+}
+.tagCloud button {
+  margin: 2px;
+  background-color: lightgray;
+  transition: 0.3s ease-in;
+}
+.tagCloud button:hover {
+  background-color: gray;
+}
+.tagCloud {
+  justify-content: center;
+}
+.sideBar {
+  flex-wrap: wrap;
+}
+#categories a, #categories div {
+  width: 100%;
+}
 
 /*RESUME PAGE*/
-#resumeHeader {
+.resumeEntry {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
-
 }
-#resumeHeader img {
+
+.resumeEntry h3, .resumeEntry h4 {
+  font-size: 140%;
+}
+.resumeEntry img {
   max-width: 5rem;
 }
-#resumeHeader h3 {
+.resumeEntry h3 {
   font-weight: bold;
 
 }
-#resumeHeader ul{
+.resumeEntry ul{
   list-style-type: circle;
 }
-#resumeHeader li {
+.resumeEntry li {
   padding-bottom: 5px;
 }
 .skillsBadge {
   justify-content:flex-start;
   flex-wrap: wrap;
 }
-#resumeHeader button {
+.resumeEntry button {
   margin-right: 7px;
 }
 

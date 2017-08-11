@@ -38,7 +38,7 @@
                 <a class="nav-link" href="portfolio.html">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link" href="blog.html">Blog</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact Me</a>
@@ -50,7 +50,7 @@
     <div class="container contactSection">
       <br>
       <h1 class="heading">Contact</h1><hr/><br>
-      <div class="row">
+      <div class="row contactInfo">
         <div class="col">
           <h4>Any questions about my work, I'd love to answer them! Or if you have an opportunity you think I’d like to get involved in, then please, drop me a message and I’ll get back to you...</h4><br>
           <h4>I'm interested in </h4>
@@ -70,33 +70,35 @@
     </div><br><br>
     <div class="container">
       <div class="row flex">
-        <div class="col-sm-4" style="background-image:url('./img/slipes.png');
-        padding-left: 0px;">
-          <h3 style="font-weight: bold;" class="portfolioHeading">
-              My Location
-          </h3><br>
+        <div class="col-sm-4">
+          <br>
+          <div style="background-image:url('./img/slipes.png');
+          padding-left: 0px;">
+            <h3 style="font-weight: bold;" class="portfolioHeading">
+                My Location
+            </h3><br>
+          </div><br>
+          <div style="width: 100%;height: 400px;background-color: grey;" id="map"></div>
         </div>
-        <div class="col-sm-7" style="background-image:url('./img/slipes.png');
+        <div class="col-sm-7">
+          <br>
+        <div style="background-image:url('./img/slipes.png');
         padding-left: 0px;">
           <h3 style="font-weight: bold;" class="portfolioHeading">
               Get In Touch
           </h3><br>
         </div>
+          <div class="col-sm-7 contactForm">
+            <form method="POST" action="http://formspree.io/YOUREMAILHERE">
+              <input style="margin-top: 10px;" type="text" name="name" placeholder="Your Name"><br>
+              <input type="email" name="email" placeholder="Your email"><br>
+              <input type="text" name="subject" placeholder="Subject"><br>
+              <textarea name="message" placeholder="Your message"></textarea><br>
+              <button class="btn btn-primary" type="submit">Send</button>
+            </form>
+          </div>
+        </div>
       </div><br>
-      <div class="row flex">
-        <div class="col-sm-4">
-          <div style="width: 100%;height: 400px;background-color: grey;" id="map"></div>
-        </div>
-        <div class="col-sm-7 contactForm">
-          <form method="POST" action="http://formspree.io/YOUREMAILHERE">
-            <input style="margin-top: 10px;" type="text" name="name" placeholder="Your Name"><br>
-            <input type="email" name="email" placeholder="Your email"><br>
-            <input type="text" name="subject" placeholder="Subject"><br>
-            <textarea name="message" placeholder="Your message"></textarea><br>
-            <button class="btn btn-primary" type="submit">Send</button>
-          </form>
-        </div>
-      </div>
     </div><br>
     <div id="footer" class="container-fluid">
         <div class="row">
