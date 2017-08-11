@@ -7,6 +7,10 @@ body {
 .heading {
   font-family: 'Merriweather', serif;
 }
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
 
 /*NAVIGATION*/
 nav {
@@ -98,6 +102,62 @@ nav {
 #portfolioCards h4 {
   text-align: center;
 }
+
+/*PORTFOLIO NAV SECTION*/
+.projectNav ul {
+  display: inline-flex;
+  justify-content: center;
+  list-style: none;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+.projectNav ul li {
+
+  text-align: center;
+  box-sizing: border-box;
+  transition: 0.25s ease-in;
+  padding: 10px;
+
+}
+.projectNav ul li:hover {
+  background-color: lightgray;
+  border-radius: 3%;
+}
+.projectNav a {
+  transition: 0.3s ease-in;
+  color: gray;
+}
+.projectNav a:hover {
+  background-color: lightgray;
+  border-radius: 3%;
+}
+.projects img {
+  transition: all .2s ease-in-out;
+  max-height: 184px;
+}
+.projects img:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.projects .card {
+  border: none;
+}
+.projects .card h4, .projects .card p {
+  text-align: center;
+}
+.projects {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+.flex-item {
+  max-width:300px;
+}
+
+
 /*FOOTER*/
 #footer {
   background-color: #1a1a1a;
