@@ -2,6 +2,7 @@
 
 /*GLOBAL*/
 body {
+  padding-top: 70px;
   font-family: 'Open Sans', sans-serif;
 }
 .heading {
@@ -18,6 +19,10 @@ nav {
   max-height: 100%;
   border-bottom: 1px solid lightgray;
   text-transform: uppercase;
+  background-color: white;
+}
+.navbar-brand {
+  background-color: white;
 }
 #navbarNavDropdown {
   background-color: white;
@@ -37,7 +42,7 @@ nav {
 }
 .nav-link:hover {
   background-color: #F5F5F5;
-  border-bottom: 3px solid #b2c0cd;
+  border-bottom: 4.5px solid #b2c0cd;
 }
 #navbarNavDropdown{
   height: 100%;
@@ -196,7 +201,7 @@ nav {
   flex-wrap: wrap;
 }
 .tagCloud button {
-  margin: 2px;
+  margin: 1px;
   background-color: lightgray;
   transition: 0.3s ease-in;
 }
@@ -204,7 +209,8 @@ nav {
   background-color: gray;
 }
 .tagCloud {
-  justify-content: center;
+  justify-content:space-between;
+  flex-flow:row wrap;
 }
 .sideBar {
   flex-wrap: wrap;

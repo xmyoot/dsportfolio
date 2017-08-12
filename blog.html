@@ -15,7 +15,8 @@
   </head>
   <body>
     <div class="container">
-        <nav class="navbar navbar-toggleable-md navbar-light" style="padding: 0;">
+        <nav class="navbar fixed-top navbar-toggleable-md navbar-light" style="padding-bottom: 0px;
+        margin-bottom: 0px;">
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -129,9 +130,33 @@
             <br><hr>
           </div>
         </div>
-        <div class="col-md-2 sideBar">
-            <strong style="ext-transform:uppercase;">TAG CLOUD</strong>
-            <div class="flex tagCloud">
+        <div class="col-md-3 sideBar">
+            <strong style="text-transform:uppercase;">TAG CLOUD</strong>
+            <div class="tagCloud">
+              <button type="button" class="btn btn-secondary">TAG</button>
+              <button type="button" class="btn btn-secondary">TAG</button>
+              <button type="button" class="btn btn-secondary">TAG</button>
+              <button type="button" class="btn btn-secondary">TAG</button>
+              <button type="button" class="btn btn-secondary">TAG</button>
+              <button type="button" class="btn btn-secondary">TAG</button>
+              <button type="button" class="btn btn-secondary">TAG</button>
+              <button type="button" class="btn btn-secondary">TAG</button>
+              <button type="button" class="btn btn-secondary">TAG</button>
+              <button type="button" class="btn btn-secondary">TAG</button>
+              <button type="button" class="btn btn-secondary">TAG</button>
+              <button type="button" class="btn btn-secondary">TAG</button>
+              <button type="button" class="btn btn-secondary">TAG</button>
+              <button type="button" class="btn btn-secondary">TAG</button>
+              <button type="button" class="btn btn-secondary">TAG</button>
+              <button type="button" class="btn btn-secondary">TAG</button>
+              <button type="button" class="btn btn-secondary">TAG</button>
+              <button type="button" class="btn btn-secondary">TAG</button>
+              <button type="button" class="btn btn-secondary">TAG</button>
+              <button type="button" class="btn btn-secondary">TAG</button>
+              <button type="button" class="btn btn-secondary">TAG</button>
+              <button type="button" class="btn btn-secondary">TAG</button>
+              <button type="button" class="btn btn-secondary">TAG</button>
+              <button type="button" class="btn btn-secondary">TAG</button>
               <button type="button" class="btn btn-secondary">TAG</button>
               <button type="button" class="btn btn-secondary">TAG</button>
               <button type="button" class="btn btn-secondary">TAG</button>
@@ -140,49 +165,32 @@
           <br><br>
           <strong style="text-transform:uppercase; text-align: left;">CATEGORIES</strong><br>
           <div id="categories" class="btn-group-vertical" role="group" aria-label="Button group with nested dropdown">
-            <a href="#"><button type="button" class="btn btn-secondary">Experimentation</button></a>
-            <a href="#"><button type="button" class="btn btn-secondary">Probability Distribution</button></a>
-            <a href="#"><button type="button" class="btn btn-secondary">Statistical Tests</button></a>
-
-            <div class="btn-group" role="group">
-              <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Natural Language Processing
-              </button>
-              <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                <a class="dropdown-item" href="#">Expert Recommendation System</a>
-                <a class="dropdown-item" href="#">PII Identification</a>
-              </div>
+            <a href="#" class="btn btn-secondary">Experimentation</a>
+            <a href="#" class="btn btn-secondary">Probability Distribution</a>
+            <a href="#" class="btn btn-secondary">Statistical Tests</a>
+            <a class="btn btn-secondary" data-toggle="collapse" href="#collapseNLP" aria-expanded="false" aria-controls="collapseExample">Natural Language Processing</a>
+            <div style="border: none;" class="collapse" id="collapseNLP">
+              <a class="dropdown-item" href="#">Expert Recommendation System</a>
+              <a class="dropdown-item" href="#">PII Identification</a>
             </div>
-            <div class="btn-group" role="group">
-              <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Databases
-              </button>
-              <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                <a class="dropdown-item" href="#">SQL Analytics/a>
-                <a class="dropdown-item" href="#">MongoDB(NO SQL)</a>
-              </div>
+            <a class="btn btn-secondary" data-toggle="collapse" href="#collapseDB" aria-expanded="false" aria-controls="collapseExample">Databases</a>
+            <div style="border:none;" class="collapse" id="collapseDB">
+              <a class="dropdown-item" href="#">SQL Analytics</a>
+              <a class="dropdown-item" href="#">MongoDB(NO SQL)</a>
             </div>
-            <div class="btn-group" role="group">
-              <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Machine Learning
-              </button>
-              <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                <a class="dropdown-item" href="#">Random Forests</a>
-                <a class="dropdown-item" href="#">SVM</a>
-                <a class="dropdown-item" href="#">Bagging</a>
-                <a class="dropdown-item" href="#">Boosting</a>
-                <a class="dropdown-item" href="#">Neural Networks</a>
-              </div>
+            <a class="btn btn-secondary" data-toggle="collapse" href="#collapseML" aria-expanded="false" aria-controls="collapseExample">Machine Learning</a>
+            <div style="border: none;" class="collapse" id="collapseML">
+              <a class="dropdown-item" href="#">Random Forests</a>
+              <a class="dropdown-item" href="#">SVM</a>
+              <a class="dropdown-item" href="#">Bagging</a>
+              <a class="dropdown-item" href="#">Boosting</a>
+              <a class="dropdown-item" href="#">Neural Networks</a>
             </div>
-            <div class="btn-group" role="group">
-              <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Big Data Analytics
-              </button>
-              <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                <a class="dropdown-item" href="#">Spark</a>
-                <a class="dropdown-item" href="#">Hadoop</a>
-                <a class="dropdown-item" href="#">Hive</a>
-              </div>
+            <a class="btn btn-secondary" data-toggle="collapse" href="#collapseBD" aria-expanded="false" aria-controls="collapseExample">Big Data Analytics</a>
+            <div style="border: none;" class="collapse" id="collapseBD">
+              <a class="dropdown-item" href="#">Spark</a>
+              <a class="dropdown-item" href="#">Hadoop</a>
+              <a class="dropdown-item" href="#">Hive</a>
             </div>
           </div>
           <br><br>
