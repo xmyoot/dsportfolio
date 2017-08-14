@@ -218,6 +218,20 @@ nav {
 #categories a, #button button, #categories div {
   width: 100%;
 }
+.badgeCloud span {
+  margin: 3px;
+}
+.badgeCloud {
+  flex-wrap: wrap;
+}
+blockquote {
+    background: #f7f7f7;
+    border-left: 1px solid #bbb;
+    font-style: italic;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+}
+
 
 /*RESUME PAGE*/
 .resumeEntry {
