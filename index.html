@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="./css/main.css">
     <script src="./js/main.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="./js/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./js/owlcarousel/assets/owl.theme.default.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   </head>
   <body>
     <div class="container">
@@ -158,6 +161,82 @@
           </h3>
         </div>
       </div>
+      <div class="row">
+        <div class="owl-carousel">
+          <a href="#">
+            <div id="portfolioCards" class="card">
+              <img class="card-img-top" src="./img/bigdata.jpg" alt="Card image cap">
+              <div class="card-block">
+                <h4 class="card-title">Card title</h4>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div id="portfolioCards" class="card">
+              <img class="card-img-top" src="./img/bigdata.jpg" alt="Card image cap">
+              <div class="card-block">
+                <h4 class="card-title">Card title</h4>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div id="portfolioCards" class="card">
+              <img class="card-img-top" src="./img/bigdata.jpg" alt="Card image cap">
+              <div class="card-block">
+                <h4 class="card-title">Blog Post</h4>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div id="portfolioCards" class="card">
+              <img class="card-img-top" src="./img/bigdata.jpg" alt="Card image cap">
+              <div class="card-block">
+                <h4 class="card-title">Blog Post</h4>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div id="portfolioCards" class="card">
+              <img class="card-img-top" src="./img/bigdata.jpg" alt="Card image cap">
+              <div class="card-block">
+                <h4 class="card-title">Blog Post</h4>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div id="portfolioCards" class="card">
+              <img class="card-img-top" src="./img/bigdata.jpg" alt="Card image cap">
+              <div class="card-block">
+                <h4 class="card-title">Blog Post</h4>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div id="portfolioCards" class="card">
+              <img class="card-img-top" src="./img/bigdata.jpg" alt="Card image cap">
+              <div class="card-block">
+                <h4 class="card-title">Blog Post</h4>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div id="portfolioCards" class="card">
+              <img class="card-img-top" src="./img/bigdata.jpg" alt="Card image cap">
+              <div class="card-block">
+                <h4 class="card-title">Blog Post</h4>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div id="portfolioCards" class="card">
+              <img class="card-img-top" src="./img/bigdata.jpg" alt="Card image cap">
+              <div class="card-block">
+                <h4 class="card-title">Blog Post</h4>
+              </div>
+            </div>
+          </a>
+        </div><br><br>
+      </div>
 
     </div>
     <div id="footer" class="container-fluid">
@@ -166,7 +245,7 @@
             <p>© 2013 Michael Aldridge. All rights reserved</p>
           </div>
           <div class="col-sm-4">
-            <p>Social Media Icons</p>
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
           </div>
         </div>
     </div>
@@ -174,5 +253,28 @@
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="./js/owlcarousel/owl.carousel.min.js"></script>
+    <script type="text/javascript">
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            600:{
+                items:3,
+                nav:false
+            },
+            1000:{
+                items:5,
+                nav:true,
+                loop:false
+            }
+        }
+    });
+    </script>
   </body>
 </html>

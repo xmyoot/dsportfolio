@@ -62,6 +62,23 @@ nav {
   background-image:url('../img/slipes.png');
   background-repeat: repeat-x;
 }
+.owl-prev, .owl-next {
+  color: white;
+  background-color: darkgray;
+  padding: 12px;
+  margin: 4px;
+  border-radius: 8%;
+  transition: .25s;
+}
+.owl-prev:hover, .owl-next:hover {
+  color: darkgray;
+  background-color: white;
+  border: 2px solid darkgray;
+}
+.owl-nav {
+  display: flex;
+  justify-content: center;
+}
 
 /*ABOUT ME SECTION*/
 .aboutMe h3 {
