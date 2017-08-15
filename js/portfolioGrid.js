@@ -17,17 +17,25 @@ function displayStat(){
 }
 function displayNLP(){
   $('.flex-item').hide(1000);
-  $('.nlp').show(1000);
+  $('.expertRecommendation').show(1000);
+  $('.p2identification').show(1000);
 }
 function displayDB(){
   $('.flex-item').hide(1000);
-  $('.databases').show(1000);
+  $('.sql').show(1000);
+  $('.nosql').show(1000);
 }
 function displayML(){
   $('.flex-item').hide(1000);
-  $('.machineLearning').show(1000);
+  $('.randomf').show(1000);
+  $('.svm').show(1000);
+  $('.bagging').show(1000);
+  $('.boosting').show(1000);
+  $('.neuralnets').show(1000);
 }
 function displayBDA(){
   $('.flex-item').hide(1000);
-  $('.bigData').show(1000);
+  $('.hive').show(1000);
+  $('.hadoop').show(1000);
+  $('.spark').show(1000);
 }

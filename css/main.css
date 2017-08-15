@@ -21,6 +21,9 @@ nav {
   text-transform: uppercase;
   background-color: white;
 }
+.dropdown-toggle::after {
+    display:none
+}
 .navbar-brand {
   background-color: white;
 }
@@ -72,6 +75,9 @@ nav {
 .aboutMe .col-sm:hover {
   background-color: #EBEBEB;
 }
+.aboutMe p {
+  color: black;
+}
 /*BLOG AND PREFERENCES*/
 .blogReferences {
   display: flex;
@@ -117,8 +123,11 @@ nav {
 }
 #portfolioCards h4 {
   text-align: center;
+  color: darkgray;
 }
-
+#portfolioCards p {
+  color: darkgray;
+}
 /*PORTFOLIO NAV SECTION*/
 .projectNav ul {
   display: inline-flex;
